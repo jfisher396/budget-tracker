@@ -2,8 +2,9 @@ const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
 const compression = require("compression");
+const path = require("path");
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 
@@ -16,19 +17,18 @@ app.use(express.json());
 app.use(express.static("public"));
 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://user1:password1>@ds137101.mlab.com:37101/heroku_flnhj3wq", 
-  {
-  useNewUrlParser: true,
-  useFindAndModify: false
-});
-
+  process.env.MONGODB_URI || "mongodb://localhost/budget", {
+    useNewUrlParser: true,
+    useFindAndModify: false
+  });
+//user1:password1>@ds137101.mlab.com:37101/heroku_flnhj3wq"
 // routes
 app.use(require("./routes/api.js"));
 
- app.get("/", function (req, res) {
-   res.json(path.join(__dirname, "public/index.html"));
- });
+app.get("/", function (req, res) {
+  res.json(path.join(__dirname, "public/index.html"));
+});
 
-app.listen(process.env.PORT || 3000, function () {
-  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
+app.listen(PORT, () => {
+  console.log(`Application running on PORT ${PORT}`);
 });
