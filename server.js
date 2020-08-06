@@ -17,11 +17,12 @@ app.use(express.json());
 app.use(express.static("public"));
 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/budget", {
+  process.env.MONGODB_URI || "//user1:password1>@ds137101.mlab.com:37101/heroku_flnhj3wq", {
     useNewUrlParser: true,
     useFindAndModify: false
   });
-//user1:password1>@ds137101.mlab.com:37101/heroku_flnhj3wq"
+  // "mongodb://localhost/budget"
+
 // routes
 app.use(require("./routes/api.js"));
 
