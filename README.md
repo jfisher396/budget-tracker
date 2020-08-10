@@ -35,9 +35,7 @@
 ---
 
   ## License
-  License used for this project - GNU AGPLv3
-    * For more information on license types, please reference this website
-  for additional licensing information - [https: //choosealicense.com/](https://choosealicense.com/).
+  MIT
 
 ---
 
