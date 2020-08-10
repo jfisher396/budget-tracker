@@ -3,8 +3,6 @@
   # Project Title:
 
   Budget Tracker
-
-  [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
   
 ---
 
@@ -37,9 +35,7 @@
 ---
 
   ## License
-  License used for this project - GNU AGPLv3
-    * For more information on license types, please reference this website
-  for additional licensing information - [https: //choosealicense.com/](https://choosealicense.com/).
+  MIT
 
 ---
 
