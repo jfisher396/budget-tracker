@@ -9,6 +9,8 @@
   ## Description:
 
   A progressive-web-app to keep an account balance even while offline.
+  
+  ![GitHub Logo](/media/budget%20tracker.png)
 
   ---
 
