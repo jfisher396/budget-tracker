@@ -1,10 +1,9 @@
-# Project Title
+# Budget Tracker
 
-  Budget Tracker
-
-  
-  
----
+<p>
+    <img src="https://img.shields.io/badge/-Progressive Web Application-blue" />
+    <img src="https://img.shields.io/badge/-Heroku-green" />
+</p>
 
 ## Table of Contents:
   - [Description](#description)
@@ -76,4 +75,6 @@
   ## Contact Information:
   * GitHub Username: [jfisher396](https://github.com/jfisher396)
   * Contact Email: james@james-fisher-web-developer.com
-  
+  * <p>
+    <a href="https://www.linkedin.com/in/jamesfisher-webdev/"><img alt="Linkedin: James Fisher" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" /></a>
+    </p>
