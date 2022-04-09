@@ -2,6 +2,7 @@
 
 <p>
     <img src="https://img.shields.io/badge/-Progressive Web Application-blue" />
+    <img src="https://img.shields.io/badge/-MongoDB-orange" />
     <img src="https://img.shields.io/badge/-Heroku-green" />
 </p>
 
